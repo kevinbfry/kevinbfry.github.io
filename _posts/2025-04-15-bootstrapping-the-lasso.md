@@ -8,8 +8,6 @@ tags:
   - cross validation
 ---
 
-<!-- # Estimating the SE of Lasso CV coefficients -->
-
 This note comes from the following question: You have data $$X, Y$$ and you run a lasso-penalized linear regression of $$Y$$ onto $$X$$, with the lasso parameter tuned by cross-validation (CV). The question is how would you estimate the standard error (SE) of the coefficient estimates from this procedure?
 
 I was asked this question as part of a quant research stats virtual interview. I did not have a good answer for this, as it was my understanding that the non-smoothness/selection property of the lasso renders the usual approach of bootstrapping the standard error inapplicable. I think all other resampling and subsampling schemes would also not work for similar reasons.
