@@ -10,7 +10,7 @@ header:
   # overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
     - label: "Recent Posts"
-      url: "index/"
+      url: "index"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Statistician by training, quant by profession, fitness and mixology enthusiast. Writing about whatever interests me at the moment."
 # intro: 
