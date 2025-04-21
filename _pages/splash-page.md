@@ -8,9 +8,9 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   # overlay_image: /assets/images/unsplash-image-1.jpg
-  actions:
-    - label: "Recent Posts"
-      url: "index"
+  # actions:
+  #   - label: "Recent Posts"
+  #     url: "index"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Statistician by training, quant by profession, fitness and mixology enthusiast. Writing about whatever interests me at the moment."
 # intro: 
