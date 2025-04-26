@@ -2,7 +2,7 @@
 title: 'Losing the plot: Physique inflation and rampant gear use'
 categories:
   - misc
-  # - fitness
+  - fitness
 ---
 
 Fitness in general, and bodybuilding in particular, has become almost entirely a genre promoting poor health and worse values. What started as a purusit of health and well-being is now an environment of rampant drug (ab)use, mental illness, and shallow desires. And we're all worse off for it, because exercise is arguably the best thing you can do for your mental and physical health and performance.

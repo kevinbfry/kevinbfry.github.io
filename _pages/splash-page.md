@@ -23,14 +23,14 @@ quant_questions:
     url: "category/quant-questions"
     btn_label: "See Posts"
     btn_class: "btn--primary"
-# fitness:
-#   - title: "Fitness"
-#     # image_path: assets/images/unsplash-gallery-image-1-th.jpg
-#     # alt: "placeholder image 1"
-#     excerpt: "Posts about fitness generally and my personal pursuit of it."
-#     url: "category/fitness"
-#     btn_label: "See Posts"
-#     btn_class: "btn--primary"
+fitness:
+  - title: "Fitness"
+    # image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    # alt: "placeholder image 1"
+    excerpt: "Posts about fitness generally and my personal pursuit of it."
+    url: "category/fitness"
+    btn_label: "See Posts"
+    btn_class: "btn--primary"
 misc:
   - title: "Miscellaneous Musings"
     # image_path: assets/images/unsplash-gallery-image-2-th.jpg
