@@ -45,4 +45,6 @@ misc:
 
 {% include feature_row  id="quant_questions" type="center" %}
 
+{% include feature_row  id="fitness" type="center" %}
+
 {% include feature_row  id="misc" type="center" %}
