@@ -1,7 +1,7 @@
 ---
 title: Estimating Variances in Autoregression
 categories: 
-  - quant-questions
+  - quant-question-posts
 tags: 
   - autoregression
   - method of moments

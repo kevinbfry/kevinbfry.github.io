@@ -15,13 +15,21 @@ header:
 excerpt: "Statistician by training, quant by profession, fitness and mixology enthusiast. Writing about whatever interests me at the moment."
 # intro: 
 #   - excerpt: ""
-quant_questions:
-  - title: "Quant Questions"
+quant_question_posts:
+  - title: "Interesting Quant Questions"
     # image_path: assets/images/unsplash-gallery-image-1-th.jpg
     # alt: "placeholder image 1"
-    excerpt: "Some interesting/frustrating quant questions I've come across one way or another."
-    url: "category/quant-questions"
+    excerpt: "Some quant questions that have variably interested and/or befuddled me."
+    url: "category/quant-question-posts"
     btn_label: "See Posts"
+    btn_class: "btn--primary"
+quant_question_bank:
+  - title: "Quant Question Bank"
+    # image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    # alt: "placeholder image 1"
+    excerpt: "A collection of quant questions that I've come across one way or another."
+    url: "category/quant-question-bank"
+    btn_label: "See Questions"
     btn_class: "btn--primary"
 fitness:
   - title: "Fitness"
@@ -43,7 +51,9 @@ misc:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row  id="quant_questions" type="center" %}
+{% include feature_row  id="quant_question_posts" type="center" %}
+
+{% include feature_row  id="quant_question_bank" type="center" %}
 
 {% include feature_row  id="fitness" type="center" %}
 

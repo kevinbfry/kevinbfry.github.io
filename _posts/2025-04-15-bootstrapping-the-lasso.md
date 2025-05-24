@@ -1,7 +1,7 @@
 ---
 title: Estimating the SE of Lasso CV coefficients
 categories: 
-  - quant-questions
+  - quant-question-posts
 tags: 
   - lasso
   - bootstrap
