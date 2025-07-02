@@ -17,9 +17,9 @@ X_t = X_{t-1} + \epsilon_{t-1}, \quad Y_t = X_t + \gamma_t \\
 X_0 = 0, \quad \epsilon_t \overset{iid}{\sim} (0, \sigma_\epsilon^2), \quad \gamma_t \overset{iid}{\sim} (0, \sigma_\gamma^2), \quad \gamma_s \perp \epsilon_t \ \forall s,t
 $$
 
-$$X_t$$ are latent variables, only $$Y_t$$ are observed.
+$X_t$ are latent variables, only $Y_t$ are observed.
 
-### Goal: Estimate $$\sigma_\epsilon^2, \sigma_\gamma^2$$
+### Goal: Estimate $\sigma_\epsilon^2, \sigma_\gamma^2$
 
 During the interview, we discussed two possible approaches and if there was any benefit of one over the other. I thought the second method was better, but my interview claimed there was no difference (I'll explain more later). In this note we will implement both on simulated data to investigate this disagreement.
 
@@ -80,7 +80,7 @@ Y = X + gamma
 
 ## Solve using MoM with two equations
 
-With this setting, my first intuition is to look at differences. And in this case this intuition works out well, as differences remove the latent variables $$X_t$$, leaving us with only linear combinations of our noise variables $$\epsilon_t, \gamma_t$$. In particular, we can write these two equations and solve for the variance by method of moments (MoM).
+With this setting, my first intuition is to look at differences. And in this case this intuition works out well, as differences remove the latent variables $X_t$, leaving us with only linear combinations of our noise variables $\epsilon_t, \gamma_t$. In particular, we can write these two equations and solve for the variance by method of moments (MoM).
 
 $$
 \begin{gather*}
@@ -108,7 +108,7 @@ hat_sigma_eps**2, hat_sigma_gamma**2
 
 
 ## Solve with OLS
-When asked to improve on this solution I proposed that instead of just two equations, use $$n$$ equations and find best estimate by ordinary least squares regression (OLS). This seemed like a natural way to pool the information from the many moment equations we have in this setting, since the estimated variances will often obey a CLT.
+When asked to improve on this solution I proposed that instead of just two equations, use $n$ equations and find best estimate by ordinary least squares regression (OLS). This seemed like a natural way to pool the information from the many moment equations we have in this setting, since the estimated variances will often obey a CLT.
 
 My interview agreed you could do this, but asked if this would produce a better solution than the MoM approach. I argued it would, as you had more information from more estimated variances of differences. However, my interviewer argued the colinearity of the rows meant there was no additional information, and thus no benefit of OLS over MoM. Let's see what happens in our simulation.
 
@@ -144,9 +144,9 @@ ols_sol
 
 
 
-It's not perfect but clearly does improve the estimate, especially of $$\sigma_\epsilon^2$$.
+It's not perfect but clearly does improve the estimate, especially of $\sigma_\epsilon^2$.
 
-This is because my interview is correct that the added feature matrix rows in $$W$$ are linearly dependent, the extra rows in $$Z$$ do add new information. Thus, we do see better estimation from adding more moment equations. If the combined matrix of $$\begin{bmatrix} W & Z \end{bmatrix}$$ was linearly dependent, then yes the added rows would not add any more information and yield the same solution.
+This is because my interview is correct that the added feature matrix rows in $W$ are linearly dependent, the extra rows in $Z$ do add new information. Thus, we do see better estimation from adding more moment equations. If the combined matrix of $\begin{bmatrix} W & Z \end{bmatrix}$ was linearly dependent, then yes the added rows would not add any more information and yield the same solution.
 
 Now the problem did not specify the errors were normally distributed, only specified their mean and variance. So we could try something with fatter tails, like a t-distribution. This should ensure we're not accidentally benefitting from using a nice distribution like the normal.
 

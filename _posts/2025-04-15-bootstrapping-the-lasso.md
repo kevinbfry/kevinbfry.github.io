@@ -8,7 +8,7 @@ tags:
   - cross validation
 ---
 
-This note comes from the following question: You have data $$X, Y$$ and you run a lasso-penalized linear regression of $$Y$$ onto $$X$$, with the lasso parameter tuned by cross-validation (CV). The question is how would you estimate the standard error (SE) of the coefficient estimates from this procedure?
+This note comes from the following question: You have data $X, Y$ and you run a lasso-penalized linear regression of $Y$ onto $X$, with the lasso parameter tuned by cross-validation (CV). The question is how would you estimate the standard error (SE) of the coefficient estimates from this procedure?
 
 I was asked this question as part of a quant research stats virtual interview. I did not have a good answer for this, as it was my understanding that the non-smoothness/selection property of the lasso renders the usual approach of bootstrapping the standard error inapplicable. I think all other resampling and subsampling schemes would also not work for similar reasons.
 
@@ -18,27 +18,27 @@ In this notebook I investigate the effectiveness of this approach in a toy compu
 
 ## The simplest lasso
 
-Consider the following setting. We have $$n$$ samples $$X_1,\dots, X_n$$ where $$X_i \sim \mathcal{N}(\mu,1)$$. We want to estimate $$\mu$$ with the soft-thresholding estimator 
+Consider the following setting. We have $n$ samples $X_1,\dots, X_n$ where $X_i \sim \mathcal{N}(\mu,1)$. We want to estimate $\mu$ with the soft-thresholding estimator 
 
 $$
 \hat\mu = \mathrm{sign}(X)\max(|\bar X| - \lambda, 0)
 $$ 
 
-We will consider $$\lambda = 1/\sqrt n$$ as this is the size at which selection is "interesting"; $$\lambda = o(1/\sqrt n)$$ will essentially result in $$\hat \mu = \bar X$$, 
-while $$\lambda = \omega(1/\sqrt n)$$ 
-will result in $$\hat\mu = \mathrm{sign}(X)(|\bar X| - \lambda)$$, 
-which will overshrink the estimator. Also, CV should end up picking $$\lambda = O(1/\sqrt n)$$ anyways.
-Now if we consider the case where $$\mu=0$$, 
-then $$\sqrt n \bar X \dot\sim \mathcal{N}(0, 1)$$, 
-thus $$|\sqrt n \bar X| \ge 2$$ with moderate probability. 
-In such cases, the bootstrap statistic $$\bar X^*$$ will have the approximate distribution
+We will consider $\lambda = 1/\sqrt n$ as this is the size at which selection is "interesting"; $\lambda = o(1/\sqrt n)$ will essentially result in $\hat \mu = \bar X$, 
+while $\lambda = \omega(1/\sqrt n)$ 
+will result in $\hat\mu = \mathrm{sign}(X)(|\bar X| - \lambda)$, 
+which will overshrink the estimator. Also, CV should end up picking $\lambda = O(1/\sqrt n)$ anyways.
+Now if we consider the case where $\mu=0$, 
+then $\sqrt n \bar X \dot\sim \mathcal{N}(0, 1)$, 
+thus $|\sqrt n \bar X| \ge 2$ with moderate probability. 
+In such cases, the bootstrap statistic $\bar X^*$ will have the approximate distribution
 
 $$
 \sqrt n \bar X^* \dot\sim\mathcal{N}(\nu,1)
 $$
 
-where $$|\nu| > 2$$. Thus we can see that although $$\bar X$$ will be soft-thresholded with roughly $$2/3$$ probability, 
-the bootstrap statistic $$\bar X^*$$ is almost never soft-thresholded $$5\%$$ of the time.
+where $|\nu| > 2$. Thus we can see that although $\bar X$ will be soft-thresholded with roughly $2/3$ probability, 
+the bootstrap statistic $\bar X^*$ is almost never soft-thresholded $5\%$ of the time.
 
 Hopefullly that analysis helps build intuition about the problem. The non-smoothness inherent to the lasso soft-thresholding causes the bootstrap estimator to fail. Now let us run a simulation to verify this.
 
