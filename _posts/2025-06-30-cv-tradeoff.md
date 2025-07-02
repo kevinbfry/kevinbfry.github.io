@@ -10,7 +10,7 @@ In a quant interview last year, I was asked a question about the
 tradeoff in changing the number of folds $k$ in $k$-fold
 cross-validation. Obviously, as the number of folds increases, the model
 is fit on a subset that is closer to the full dataset size $n$. And if I
-recall correctly, the interviewer implied was that the variance should
+recall correctly, the interviewer implied that the variance should
 be decreasing as the number of folds increases. This seemed weird to me,
 even though averaging more samples is typically thought to reduce
 variance.
