@@ -40,7 +40,7 @@ fitness:
     btn_label: "See Posts"
     btn_class: "btn--primary"
 mixology:
-  - title: "Mixology"
+  - title: "Mixology Musings"
     # image_path: assets/images/unsplash-gallery-image-1-th.jpg
     # alt: "placeholder image 1"
     excerpt: "Posts about (mostly N/A) at-home mixology."
