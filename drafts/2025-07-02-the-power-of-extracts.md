@@ -2,6 +2,8 @@
 title: How good are grocery store extracts for mocktails? 
 categories:
   - mixology
+tags:
+  - extracts
 ---
 
 I have recently been watching videos from Darcy O'Neil's YouTube channel [Art of Drink](https://www.youtube.com/@Artofdrink). In it, he goes through techniques for how to extract flavor compounds and use them to make wonderful beverages (mostly sodas). One of the key tools he employs is extracts. As someone who loves craft cocktails but is trying to cut back on my alcohol consumption, extracts seemed like a great way to get the flavors I loved in cocktails in non-alcoholic options. 
