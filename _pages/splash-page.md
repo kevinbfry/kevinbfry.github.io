@@ -39,14 +39,22 @@ fitness:
     url: "category/fitness"
     btn_label: "See Posts"
     btn_class: "btn--primary"
-misc:
-  - title: "Miscellaneous Musings"
-    # image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    # alt: "placeholder image 2"
-    excerpt: "Random things I found interesting; mostly fitness and mixology."
-    url: "category/misc"
+mixology:
+  - title: "Mixology"
+    # image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    # alt: "placeholder image 1"
+    excerpt: "Posts about (mostly N/A) at-home mixology."
+    url: "category/mixology"
     btn_label: "See Posts"
     btn_class: "btn--primary"
+# misc:
+#   - title: "Miscellaneous Musings"
+#     # image_path: assets/images/unsplash-gallery-image-2-th.jpg
+#     # alt: "placeholder image 2"
+#     excerpt: "Random things I found interesting; mostly fitness and mixology."
+#     url: "category/misc"
+#     btn_label: "See Posts"
+#     btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -57,4 +65,4 @@ misc:
 
 {% include feature_row  id="fitness" type="center" %}
 
-{% include feature_row  id="misc" type="center" %}
+{% include feature_row  id="mixology" type="center" %}
