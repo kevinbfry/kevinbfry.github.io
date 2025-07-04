@@ -10,7 +10,7 @@ tags:
 If we draw uniformly form the unit sphere, and call its coordinates
 $(X,Y,Z)$, what is the variance of $X$?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   
 

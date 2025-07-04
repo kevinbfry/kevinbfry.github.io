@@ -12,7 +12,7 @@ You have points in 3D. How to find hyperplane that minimizes z-axis error? How t
 find hyperplane that minimizes orthogonal error? When would you prefer one over 
 the other?
 
-<details>
+<details markdown="block"> 
   <summary>Solution</summary>
   
   This may sound weird at first, but these actually map onto very common

@@ -12,7 +12,7 @@ such that $X$ cannot be loaded in memory. Consider both when $p$ very
 small, but also when $p$ is also very big, such that a $p \times p$ matrix 
 is also too big to load into memory
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
 
   The solution is

@@ -7,7 +7,7 @@ tags:
   - optimization
 ---
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   This is just a basic question to query if you have basic 
   familiarity with neural networks. You should mention techniques 

@@ -9,7 +9,7 @@ tags:
 
 Without any package imports, how would you compute OLS?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   This is a pretty open-ended question, but however you go about solving it, you'll
   have to demonstrate knowledge of computational linear algebra algorithms. Here are some options:

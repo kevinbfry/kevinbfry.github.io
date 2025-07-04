@@ -10,7 +10,7 @@ tags:
 If $X_0=0$, and goes up or down one at each time step with equal
 probability, what is the probability $X$ hits $4$ before $X$ hits $-6$?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   
 

@@ -9,7 +9,7 @@ tags:
 
 How would you programmatically check if an integer is a power of $2$?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
 
   There are many possible solutions. The most trivial one is successive 

@@ -8,12 +8,12 @@ tags:
 ---
 
 Suppose we play a game where we flip a gold coin 500 times and a silver
-coin 500 times. We get \$3 per gold head, and \$1 per silver head,
-getting nothing for tails. Suppose we play the game once and earn \$900.
+coin 500 times. We get 3 dollars per gold head, and 1 dollar per silver head,
+getting nothing for tails. Suppose we play the game once and earn 900 dollars.
 What is the most likely value of $M$, the number of gold heads, to get
-\$900?
+900 dollars?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
    
 

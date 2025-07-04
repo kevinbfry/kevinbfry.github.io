@@ -12,7 +12,7 @@ probability that a randomly generated passcode has exactly $5$
 occurrences of the same digit? What is the probability of having exactly
 one digit occur $4$ times in a passcode?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   
 

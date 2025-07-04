@@ -10,17 +10,17 @@ tags:
 If $Y \sim X$ gives coefficient $\hat\beta$, what is the bound on the coefficient
 $\hat\theta$ from $X \sim Y$?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   
 
 Note that 
 
 $$
-\begin{gather*}
+\begin{gathered}
 \hat\beta = \mathrm{Cov}(X,Y) / \mathrm{var}(X) \\
 \hat\theta = \mathrm{Cov}(X,Y) / \mathrm{var}(Y)
-\end{gather*}
+\end{gathered}
 $$
 
 and so

@@ -14,7 +14,7 @@ lowest, middle, or highest. Then by default $U_3$ is assigned the
 remaining label. What should your strategy be to maximize the
 probability of labeling all 3 correctly?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
    
 

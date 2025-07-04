@@ -13,7 +13,7 @@ $$\left|\sum_{a \in A} a - \sum_{b \in B} b \right|$$
 
 is minimized? Give a bound on your objective value.
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
    
 

@@ -8,7 +8,7 @@ tags:
 
 What is the probability the sum of 6 dice rolls is a multiple of 6?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   This may seem at first like it requires some complicated calculations,
   but there is a very nice clean solution. You may find it helpful to split

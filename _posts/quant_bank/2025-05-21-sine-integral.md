@@ -9,7 +9,7 @@ tags:
 
 Compute $\int_\pi^{2\pi} \sin x dx$.
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   
 

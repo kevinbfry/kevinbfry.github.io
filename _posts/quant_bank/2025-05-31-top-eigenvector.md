@@ -8,7 +8,7 @@ tags:
 
 How do you find the top eigenvector of a square matrix?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   The most simple answer to this is the power method. It is 
   a very simple algorithm that applies to any diagonalizable matrix. 

@@ -12,7 +12,7 @@ distance between them and other patrons. You can only choose where the
 first patron sits. How should you seat the first patron to maximize the
 number of patrons that can sit?
 
-<details>
+<details markdown="block">
   <summary>Solution</summary>
   
 

@@ -83,11 +83,11 @@ Y = X + gamma
 With this setting, my first intuition is to look at differences. And in this case this intuition works out well, as differences remove the latent variables $X_t$, leaving us with only linear combinations of our noise variables $\epsilon_t, \gamma_t$. In particular, we can write these two equations and solve for the variance by method of moments (MoM).
 
 $$
-\begin{gather*}
+\begin{gathered}
 \Delta_k Y = Y_t - Y_{t-k} \\
 \mathrm{var}(\Delta_1 Y) = \sigma^2_\epsilon + 2\sigma^2_\gamma \\
 \mathrm{var}(\Delta_2 Y) = 2\sigma^2_\epsilon + 2\sigma^2_\gamma \\
-\end{gather*}
+\end{gathered}
 $$
 
 
