@@ -154,5 +154,5 @@ rather constant with $k$. Perhaps there are other settings where you can
 make the effect even more exagerrated, perhaps by even introducing
 correlation in the samples (which is not at all unreasonable in quant
 finance), instead of i.i.d. like we have in our simulations. However, I
-think this make the point that the averaging over more folds does not
-always reduce variance, even when your data is i.i.d.
+think this makes the point that the averaging over more folds does not
+necessarily reduce variance, even when your data is i.i.d.
