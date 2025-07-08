@@ -1,7 +1,8 @@
 ---
-title: How good are grocery store extracts for mocktails? 
+title: Store-bought extracts for at-home drinks 
 categories:
   - mixology
+  - misc
 tags:
   - extracts
 ---
@@ -18,5 +19,6 @@ very easy to start making flavored non-alcoholic drinks.
 For example, with vanilla, almond, lemon, and banana extracts, you can make a decent approximation to a cream soda.  With mint and lemon extracts, you can turn a lemonade in a
 wonderful mint lemonade with added lemon flavor (without the added sourness). Or use strawberry instead of mint to get a strawberry lemonade without needing strawberries on hand. I've also experimented with adding chocolate or pandan extract to nutty Hojicha tea, and it works very well. Pandan extract, and many others can be easily found online such as at [Amazon](https://amzn.to/3I96sn8).
 
-And yes, these extracts do technically contain alcohol, but you will use them in such small 
-amounts that the resulting drinks are, by any North American or European standard, non-alcoholic.
+And these work just as well in alcoholic drinks. The best use in that case is to make flavored syrups on demand from a base simple syrup. You need only add an ounce of extract to about 16 ounces (will vary depending on how strong you like it), or you can dose it out on a per drink basis by simply adding a few drops to the cocktail shaker. This way you can have a wider variety of flavored syrups at your fingertips without needing to make a bunch of different flavored syrups that often have a much shorter shelf life compared to simple syrup.
+
+And yes, these extracts do technically contain alcohol, but you will use them in such small amounts that the resulting drinks are, by any North American or European standard, non-alcoholic.
