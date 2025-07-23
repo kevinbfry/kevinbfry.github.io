@@ -29,6 +29,7 @@ these values, represented by a matrix $A$ and vector $b$ satisfying $Ax = b$. Ho
   $$
 
   Taking derivatives and setting to 0 we get the following equations
+
   $$
   \begin{gathered}
   2x = A^\top \lambda \\
@@ -48,6 +49,7 @@ these values, represented by a matrix $A$ and vector $b$ satisfying $Ax = b$. Ho
   &= VD^{-T}U^T
   \end{aligned}
   $$
+  
   where $S = DD^\top$ is a diagonal matrix with diagonals $\sigma_i^2$.
 
 
