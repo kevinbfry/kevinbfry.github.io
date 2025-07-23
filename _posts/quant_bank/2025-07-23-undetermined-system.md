@@ -9,7 +9,7 @@ tags:
 
 A lot of firms will ask questions that are variations on the following: Suppose you have a $p$ 
 -dimensional parameter $x$ you want to estimate, and you have $n < p$ samples of equations relating 
-these values, represented by a matrix $A$ and vector $b$ satisfying $Ax = b$. How would estimate $x$?
+these values, represented by a matrix $A$ and vector $b$ satisfying $Ax = b$. How would you estimate $x$?
 
 <details markdown="block">
   <summary>Solution</summary>
@@ -49,7 +49,7 @@ these values, represented by a matrix $A$ and vector $b$ satisfying $Ax = b$. Ho
   &= VD^{-T}U^T
   \end{aligned}
   $$
-  
+
   where $S = DD^\top$ is a diagonal matrix with diagonals $\sigma_i^2$.
 
 
